@@ -111,20 +111,45 @@ body{
     }
 }
 
+
+
+
+.Imagem--width {
+  width: 100%;
+  height: 300px;
+}
+
+/* img {
+  width: 100%;
+  height: 50%;
+
+} */
+
 main{
     margin: 10%;
 }
 
+.titulo{
+  display: flex;
+  justify-content: center;
+  font-size:20px;
+  padding: 50px;
+
+
+
+
+}
+
 h1{
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    background-color: #B8DCE2;
-    border: 10px;
-    border-width: 20px;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 30px 30px 30px;
+  font-size:300%;
+  color:white;
+  background-color: #5CA5B5;
+  border: 1px;
+  border-radius: 10px;
+  border-color: black;
+  padding: 20px;
+
+
 
 }
 
@@ -174,7 +199,8 @@ footer{
 .rodape__container {
     /* Aqui defini o tamanho geral do rodapé e a cor do fundo */
     background-color: darkblue;
-    height: 250px;
+    border: 2px solid red;
+    /* height: 250px; */
     width: 100%;
   }
   
@@ -182,7 +208,7 @@ footer{
     /* Aqui seria onde ficam todos os elementos do rodapé */
     align-items: center;
     display: flex;
-    height: 250px;
+    /* height: 250px; */
     justify-content: space-evenly;
     width: 100%;
   }
@@ -190,7 +216,7 @@ footer{
   .logo__rodape {
     width: 230px;
     margin-bottom: 20px;
-    height: 80px;
+    /* height: 80px; */
   }
   
   .texto__rodape {
@@ -245,3 +271,13 @@ footer{
     height: 80px;
     width: 200px;
   }
+
+  .container {
+    padding: 60px;
+    height: 790px;
+    background-image: url(img/Group\ 379.png);
+  }
+
+footer {
+    margin-top: 0
+}
